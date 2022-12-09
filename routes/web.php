@@ -31,6 +31,7 @@ Route::middleware('auth')->group(function () {
     Route::resource('jenisagenda', JenisAgendaController::class);
     Route::resource('anggota', AnggotaController::class);
     Route::resource('rancanganbiasa', RancanganBiasaController::class);
+    // Route::get('/', [NotulaController::class, 'index'])->name('notula.index');
     Route::resource('notula', NotulaController::class);
     Route::resource('user', UserController::class);
 });

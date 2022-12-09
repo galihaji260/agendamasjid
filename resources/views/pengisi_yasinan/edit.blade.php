@@ -35,7 +35,7 @@
           <div class="card-body">
             <div class="form-group">
               <label for="pasaran">Pasaran</label>
-              <input type="text" name="pasaran" class="form-control" id="pasaran" value="{{ $pengisi_yasinan->pasaran }}" placeholder="Pasaran">
+              <input type="text" name="pasaran" class="form-control" id="pasaran" value="{{ $pengisi_yasinan->pasaran }}" readonly>
               @error('pasaran')
               <div class="alert alert-danger">{{ $message }}</div>
               @enderror

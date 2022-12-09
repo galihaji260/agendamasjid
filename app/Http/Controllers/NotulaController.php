@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Notula;
 use Illuminate\Http\Request;
 
 class NotulaController extends Controller
@@ -13,7 +14,7 @@ class NotulaController extends Controller
      */
     public function index()
     {
-        //
+        return view('notula.index');
     }
 
     /**
